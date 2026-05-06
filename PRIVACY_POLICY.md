@@ -1,6 +1,6 @@
 # Range Caddie — Privacy Policy
 
-_Last updated: May 5, 2026_
+_Last updated: May 6, 2026_
 
 Range Caddie is a personal launch monitor analytics app for the Garmin R10. This policy explains what data the app handles, where it lives, and what we do with it.
 
@@ -24,10 +24,12 @@ All of the above is stored using iOS's standard `UserDefaults` system, in your a
 ## 2. Data we do NOT collect
 
 - Your location
-- Your contacts, photos, or any other device data
+- Your contacts, or any other device data
 - Crash reports or analytics
 - Identifiers, device IDs, or advertising IDs
 - Any data tied to your Apple ID
+
+The app does not read your photo library, contacts, or any files outside what you explicitly import. The app *can* write a session summary image to your Photos library, but only when you tap "Save Image" in the iOS share sheet — see Section 4. iOS will ask for your permission the first time.
 
 ## 3. Network usage
 
@@ -38,10 +40,11 @@ Range Caddie does not make any network requests. The app functions entirely offl
 Range Caddie includes optional features for you to share content yourself:
 
 - **CSV export:** generates a `.csv` file in your device's temporary storage and presents the iOS Share Sheet so you can save it, AirDrop it, or send it via Messages/Mail/Files. The file leaves the app only when you choose to share it; we don't transmit anything.
-- **Session image card:** generates a summary image and presents the iOS Share Sheet. Same model — only goes where you direct it.
+- **Session image card:** generates a summary image and presents the iOS Share Sheet. You can save it directly to your Photos library, AirDrop it, or send it via Messages/Mail. The first time you choose "Save to Photos," iOS will ask for permission. Same model as everything else — the image only goes where you direct it.
 - **Lesson prep export:** generates a text summary and presents the iOS Share Sheet.
+- **Send Feedback:** opens your default email client with a pre-filled message to **RangeCaddieApp@gmail.com**, including the app version for support context. Range Caddie does not send the email — your email client does, after you tap Send. You can edit, replace, or cancel the message before sending.
 
-In all cases, the destination is chosen by you through the iOS Share Sheet. Range Caddie does not control or see what happens after that.
+In all cases, the destination is chosen by you through the iOS Share Sheet (or your email client). Range Caddie does not control or see what happens after that.
 
 ## 5. Importing CSV files
 
